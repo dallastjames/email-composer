@@ -16,6 +16,7 @@ export class HomePage {
       await this.email.isAvailable();
       this.available = "Available";
     } catch (e) {
+      console.error(e);
       this.available = "Not available";
     }
   }
