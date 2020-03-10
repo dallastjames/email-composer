@@ -1,5 +1,7 @@
 {
   "name": "email",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
